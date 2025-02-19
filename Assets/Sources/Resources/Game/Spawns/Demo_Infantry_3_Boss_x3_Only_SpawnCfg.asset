@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57791473429d4dddbbf157c8113e21f4, type: 3}
+  m_Name: Demo_Infantry_3_Boss_x3_Only_SpawnCfg
+  m_EditorClassIdentifier: 
+  id: ce66d475-c99d-4e1a-a3e5-36f4b2778947
+  whenUnitsDied:
+    enabled: 0
+    repeat: -1
+    starts: -1
+    ends: -1
+    each: -1
+    passedLast: 0
+    repeatLeft: 0
+  whenGameTime:
+    enabled: 1
+    repeat: 3
+    starts: 15
+    ends: -1
+    each: 15
+    passedLast: 1786
+    repeatLeft: -1
+  whenGameProgress:
+    enabled: 0
+    repeat: 0
+    starts: -1
+    ends: -1
+    each: -1
+    passedLast: -1
+    repeatLeft: 0
+  whenPlayerLevel:
+    enabled: 0
+    repeat: 0
+    starts: -1
+    ends: -1
+    each: -1
+    passedLast: -1
+    repeatLeft: 0
+  positionSelector: 2
+  positionIds: 08000000090000000a0000000b000000
+  units:
+  - {fileID: 11400000, guid: 2e13c440c0a9d8c4b82d8e7e5c5a7b89, type: 2}
+  - {fileID: 11400000, guid: 2e13c440c0a9d8c4b82d8e7e5c5a7b89, type: 2}
+  - {fileID: 11400000, guid: 2e13c440c0a9d8c4b82d8e7e5c5a7b89, type: 2}
+  - {fileID: 11400000, guid: 2e13c440c0a9d8c4b82d8e7e5c5a7b89, type: 2}

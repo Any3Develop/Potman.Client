@@ -1,0 +1,1 @@
+This Reousrces is intended for general use. That is, it is not explicitly used in the project. DoTween settings ect.

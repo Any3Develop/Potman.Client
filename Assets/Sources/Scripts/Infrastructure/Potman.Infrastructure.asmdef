@@ -1,0 +1,26 @@
+{
+    "name": "Potman.Infrastructure",
+    "rootNamespace": "Potman",
+    "references": [
+        "Zenject",
+        "Potman",
+        "Unity.InputSystem.ForUI",
+        "Unity.InputSystem",
+        "Unity.Mathematics",
+        "Unity.Burst",
+        "Potman.Common.InputSystem",
+        "Potman.Common.UIService",
+        "UniTask",
+        "UniTask.Addressables",
+        "UniTask.DOTween"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

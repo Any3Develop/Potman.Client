@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb047894ffb4462ac6263b0a72487ca, type: 3}
+  m_Name: Demo_AviationEntityCfg_0
+  m_EditorClassIdentifier: 
+  id: 449eb5ad-f3e0-4716-801f-2e5491a18cdb
+  viewPrefab: {fileID: -8379357139647015724, guid: ec55cb60c3c4d1343abe4548d365f244, type: 3}
+  viewModelPrefab: {fileID: -2968378354900780081, guid: ed7ffe1c6b5663d45acbffab725a74f3, type: 3}
+  classType: 3
+  behaviorType: 2
+  movementType: 2
+  walkableAreas: 9
+  behavioursSet: {fileID: 11400000, guid: 158d504f469143a499467bfbe34f36e3, type: 2}
+  stats:
+  - name: MoveSpeed
+    type: 60
+    value: 150
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
+  - name: MoveTurnSpeed
+    type: 63
+    value: 2500
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
+  - name: MoveAcceleration
+    type: 61
+    value: 1000
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
+  - name: MoveDumpingFactor
+    type: 62
+    value: 95
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 100
+  - name: AgentHeght
+    type: 40
+    value: 3
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
+  - name: AgentRadius
+    type: 41
+    value: 25
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
+  - name: AgentPriority
+    type: 42
+    value: 25
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 1
+  - name: FlyAltitude
+    type: 80
+    value: 30
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 1
+  - name: FlyDumping
+    type: 81
+    value: 6
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
+  - name: FlyTrunDumping
+    type: 82
+    value: 5
+    min: 0
+    max: 0
+    useMin: 0
+    useMax: 0
+    precision: 10
